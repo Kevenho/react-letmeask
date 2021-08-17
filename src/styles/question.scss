@@ -1,16 +1,18 @@
 .question {
-    background: #fefefe;
-    border-radius: 8px;
+    //background: #f0f0fa;
+    border-radius: 16px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
     padding: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+    background: linear-gradient(to left, rgb(224, 218, 218), rgb(233, 233, 233));
+    background: linear-gradient(to right,rgb(233, 233, 233), rgb(233, 233, 233));
 
     & + .question {
-        margin-top: 8px;
+        margin-top: 12px;
     }
 
     > p {
-        color: #29292e !important;
+        color: #000000 !important;
         background: none !important;
     }
 
@@ -35,9 +37,9 @@
         span {
           margin-top: 2px;
           margin-left: 10px;
-          color: #737380;
+          color: #000000;
           font-size: 16px;
-          font: normal !important;
+          font-weight: lighter !important;
         }
     }
 }
