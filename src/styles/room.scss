@@ -25,7 +25,7 @@
 
     }
 
-    p {
+     p {
       margin-left: 16px;
       background: #e559f9;
       border-radius: 9999px;
@@ -38,6 +38,10 @@
     main {
       max-width: 800px;
       margin: 0 auto;
+
+      .question-list {
+        margin-top: 32px;
+      }
 
         h1 {
           font-family: 'Poppins', sans-serif;
@@ -102,4 +106,12 @@
         }
       }
     }
+  }
+
+  h4 {
+    width: 1360px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 560px;
+    margin-top: 32px;
   }
